@@ -46,7 +46,7 @@ def similarity_score(lft: List[int], rgt: List[int]) -> int:
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        print("USAGE: python -m sim_score.py FILE_NAME")
+        print("USAGE: python -m sim_score FILE_NAME")
         exit(-1)
 
     left_list, right_list = parse_data(sys.argv[1])

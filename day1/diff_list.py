@@ -18,7 +18,7 @@ def parse_data(file_name: str) -> Tuple[List[int], List[int]]:
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        print("USAGE: python -m diff_list.py FILE_NAME")
+        print("USAGE: python -m diff_list FILE_NAME")
         exit(-1)
 
     left_list, right_list = parse_data(sys.argv[1])
